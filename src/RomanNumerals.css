@@ -1,0 +1,167 @@
+.root {
+    width: 430px;
+    height: 930px;
+    background-color: #fff;
+    overflow-wrap: break-word;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 14px;
+  align-items: center;
+  width: 430px;
+  background-color: #fff;
+}
+.Roman1{
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px ;
+    justify-content: space-between;
+}
+.Roman1 h1{
+    fontfamily: Roboto Flex;
+    font-size: 20px;
+    padding: 20px;
+}
+.Search{
+    border-radius: 20px;
+    width: 364px;
+    height: 38px;
+    align-items: center;
+    text-align: center;
+    color: #888;
+}
+.search{
+    position: absolute;
+    padding:39px 0px 0px 110px ;
+    transform: translateY(-50%);
+    color: #888;
+}
+.navbar {
+  width: 50%;
+  z-index: 999;
+  padding: 0px 0;
+  fontfamily: Roboto Flex;
+  padding-left: 20px;
+}
+.menu-btn {
+  position: absolute;
+  color: #111;
+  font-size: 20px;
+  cursor: pointer;
+  padding-top: 43px;
+  right: 20px;
+  z-index: 999;
+  margin-left: 30px;
+  display: block;
+  left: 0;
+  }
+  .menu{
+    position: absolute;
+    padding-top: 43px;
+    right: 0;
+    margin:145px 5px ;
+    height: 771px;
+    width: 206px;
+    left: -100%;
+    border: 1px solid rgba(217,217,217,0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20000000298023224);
+    background-color: #f6f8fb;
+    transition: all 0.3s ease;
+    list-style-type: none;
+  }
+  .menu.active {
+    left: 0;
+    padding-top: 30px;
+    position: absolute;
+    right: unset;
+  }
+  .navbar .menu li a {
+    position: relative;
+    padding: 1px;
+    display: inline-block;
+    margin: 12px;
+    font-size: 14px;
+    color: black;
+    fontfamily: Roboto Flex;
+  }
+  .menu li:hover {
+    position: relative;
+    padding: 0px 0px 4px 4px;
+    align-items: center;
+    width: 206px;
+    height: 32px;
+    background-color: #B0B3B8;
+  }
+.intro{
+  width: 100%;
+  height: 930px; 
+  text-align: justify;
+  overflow-wrap: break-word;
+}
+.intro.active{
+  position: absolute;
+  padding-left:50%;
+  width: 206px;
+  transition: width 0.3s ease;
+  text-align: justify;
+  overflow-wrap: break-word;
+
+.introtext p{
+    position: relative;
+    width: 206px;
+    fontfamily: Roboto Flex;
+    font-size: 18px;
+    margin: 10px;
+    padding-right: 10px;
+    overflow-wrap: break-word;
+}
+.Roman{
+    width: 206px;
+    fontfamily: Roboto Flex;
+    font-size: 20px;
+    color: #7236F0;
+    text-align: center;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+}
+.introtext p{
+  position: relative;
+  width: 430px;
+  fontfamily: Roboto Flex;
+  font-size: 18px;
+  margin: 10px;
+  padding-right: 20px;
+  overflow-wrap: break-word;
+}
+.Roman{
+  width: 430px;
+  fontfamily: Roboto Flex;
+  font-size: 20px;
+  color: #7236F0;
+  text-align: center;
+  align-items: center;
+  overflow-wrap: break-word;
+}
+.Geeta{
+    color: #0EB651;
+    font-size: 18px;
+    font-weight: 900;
+    fontfamily: Roboto Flex, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.Teacher{
+    color: #4946df;
+   font-size: 18px;
+   font-weight: 900;
+   fontfamily: Roboto Flex, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
